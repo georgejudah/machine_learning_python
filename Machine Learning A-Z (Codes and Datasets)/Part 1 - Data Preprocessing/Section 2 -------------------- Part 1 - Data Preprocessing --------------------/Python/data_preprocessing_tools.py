@@ -7,6 +7,8 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Data.csv')
+#take all the columns except the last column
+#iloc = indexes
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 print(X)
@@ -15,7 +17,10 @@ print(y)
 # Taking care of missing data
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
+#fill method will look into the columns Age column and Salary columns
+# a general thumb rule is to include all the numerical columns
 imputer.fit(X[:, 1:3])
+# replace the original matrix with the new version of X
 X[:, 1:3] = imputer.transform(X[:, 1:3])
 print(X)
 
