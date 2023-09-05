@@ -23,3 +23,17 @@ Feature Scaling
 -- Process to make sure that all your features are in the right scale for proper comparison
 -- Applied to columns and never on rows
 -- Multiple techniques - Normalization, Standardization
+
+-- Remember this rule - mostly the features will be in the first few columns and the dependant variable vector
+will be in the last column
+
+Missing data
+if any of the columns are missing, you can either remove the whole row
+or classic - replace the missing salary by the average of the all salaries
+
+when having categorical data, data such as country which is a string - do one hot encoding - encoding categorical data
+-- the reason is this So the Categorical data must be transformed or encoded into Numerical type before feeding data to an Algorithm, which in turn yields better results
+
+Rule 3: we have to apply feature scaling after splitting the dataset into training and testing set
+Why? The test set is supposed to be a brand new set - you will deploy it in production. You will not
+modify it before working on the training set

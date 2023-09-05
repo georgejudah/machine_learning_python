@@ -1,0 +1,21 @@
+# Correlation is the statistical method of a linear relationship between 2 variables
+# Correlation is a number between -1(positive negative correlation) and 1(positive correlation) and 0 means no Correlation
+# Strength and Direction of the correlation is very important
+
+# if 2 features were perfectly correlated, it could be a bad thing, something which we should discover early on
+# Multi Collinearity
+# is when two or more predictives in regression are highly related to one another
+# For example if you're trying to find the correlation between bone density and 2 variables, body fat and
+# body weight, for most of the population the 2 features, body fat and weight haave positive correlation.
+# Each of these do not provide unique and independent information to the regression
+
+# In this case, the estimates start becoming unreliable and non sensical findings, the model starts getting
+confused. One more important thing is that high correlation betweem features doesn't automatically mean multi collinearity
+
+# We should investigate the high correlation between the features
+
+
+# If a feature is not adding any explanatory value, it's often better to exclude it
+
+# Correlation does not imply causation. Linear relationship only
+# Look at the value of correlation with relationship to charts visually

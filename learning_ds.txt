@@ -1,0 +1,38 @@
+Having the mindset of a data scientist
+# First, carefully formulate the question - clear and well formulated question will
+determine the research and also affect the kind of data being gethered
+# Gathering the data
+# Clean the data - 
+# Explore the data and visualize it
+# Train the algorithm - Linear regression
+# Evaluate the algorithm
+
+
+#Data cleaning
+- Missing data
+- Incomplete data
+- inaccurate data
+- Formatting data
+-- Feel like it'll be easier/better to format the data maximum using excel and then import the data to python
+
+# Many times, you might be doing the cleaning and the exploration side by side, going back and forth
+
+
+# Machine learning solution process steps - The cycle
+# Prediction
+# Calculate the error - measure how good the prediction looks
+# Learn and adjust the inital prediction to have a smaller error
+
+# Jargons
+# Optimization, # Cost functions/ Loss function
+
+#shortcuts
+jupyter notebook --notebook-dir=D:/
+
+# First six questions you ask yourself when presented with a new dataset
+- Source of the data
+- Description of the data set
+- Number of data points
+- Number of features
+- Names of the features
+- Description of the features
