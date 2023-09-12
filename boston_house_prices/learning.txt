@@ -19,3 +19,49 @@ confused. One more important thing is that high correlation betweem features doe
 
 # Correlation does not imply causation. Linear relationship only
 # Look at the value of correlation with relationship to charts visually
+
+
+# One of the habits that we want to do when training our algorithm is to split the dataset into 2 parts and
+# Training data set and Test data set - can use sklearn model selection to split the dataset
+# Shuffling the data
+# importance of shuffling the data
+
+#What is R Squared?
+R-Squared (R²) is a statistical measure used to determine the proportion of variance in a dependent variable that can be predicted or explained by an independent variable.
+
+In other words, R-Squared shows how well a regression model (independent variable) predicts the outcome of observed data (dependent variable).
+
+R-Squared is also commonly known as the coefficient of determination. It is a goodness of fit model for linear regression analysis.
+
+
+# We formulated our question, Gathered data, Cleaned data, Trained our algorithm and, now we can Deploy and evaluate, look for results, look for improvements and deploy our model
+# Number of stats which we can look at - for evaluating our model
+1. R Squared
+2. p values of coeff
+3. Variance inflation factor
+4. Bayessian information criterion
+
+# Data transformation is very import
+In the following example, since we're fitting a linear regression model to our data,
+it will be better if we can use logarithm to our data which will reduce the scale and will
+be a better fit to our data 
+
+Based on the skew in the distribution, transform the data and then fit the linear regression
+a skew of 0 for a normal distribution
+
+# Any p value over 0.05 is not significant - p values test for the significance of our different factors
+# For Variance inflation factor - if VIF > 10 would be considered problematic and would need closer inspection
+
+## is it safe to remove features to make the model better? is that a wise thing to do?
+
+# -----------------------------
+# Goal of the below lesson is to introduce to the topic of feature selection in the context of a regression
+# We will be looking at a metric that we can use to help you make your decisions
+# and that metric is called Baysian information Criterion (BIC) - way you can measure complexity
+# lower is better
+https://www.statology.org/bic-in-python/
+
+
+#Residuals
+Difference between the target value and the predicted value. Used to check if the assumptions
+hold and the model is valid. Residuals should be random (ie., no pattern)

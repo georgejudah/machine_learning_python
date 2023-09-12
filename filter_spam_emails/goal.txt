@@ -1,0 +1,35 @@
+AIM:
+So, let's imagine that this is exactly the kind of situation that you find yourself in right now.
+You receive an email from the company that you've just applied for in response to your job application
+and they liked your CV and they're giving you this opportunity to show what you're made of during a
+project.
+Here's the gist of the email "Our team receives too much spam.
+We only want legitimate emails in our inbox and we want all spam to be filtered out."
+"Here's some data."
+"Send us your solution by next week."
+
+
+This is a classification style problem
+
+Source data downloaded from : https://spamassassin.apache.org/
+
+Formulating the question:
+W're going to take the raw emails and pre-process the text data, then we're going to
+train a machine learning model that classifies the email as either spam or not-spam.
+Tes the model's performance
+
+We're going to to learn about Naive Bayes Algorithm
+- It will calculate the probability of an event and classify based on which number is higher - either spam or not spam
+
+- Decision boundary - in the graph, the line where probability of both the events are same
+
+
+Step 1:
+The first step will involve extracting all the text from the email bodies and this means moving on to
+the next parts of our project workflow -
+namely cleaning and exploring the data.
+For example, we will need to figure out just how common each word is
+in an email. We will need to do this for every single word, not just spammy words like Viagra but every word.
+
+
+
