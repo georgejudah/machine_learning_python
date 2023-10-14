@@ -32,4 +32,11 @@ For example, we will need to figure out just how common each word is
 in an email. We will need to do this for every single word, not just spammy words like Viagra but every word.
 
 
+NLP in our application
+We have to convert our email bodies into a form that the Algorithm can understand
+and this means in a form the algo can understand - pre processing the text(convert to lower case,
+tokenising - splitting the words, removing stop words, stripping out html Tags, Word Stemming, )
+
+
+
 
