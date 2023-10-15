@@ -37,6 +37,7 @@ We have to convert our email bodies into a form that the Algorithm can understan
 and this means in a form the algo can understand - pre processing the text(convert to lower case,
 tokenising - splitting the words, removing stop words, stripping out html Tags, Word Stemming, )
 
+# word stemming - reducing the words to their base form - We're going to be using porter stemmer for this(De facto)
 
 
 
