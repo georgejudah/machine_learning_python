@@ -42,6 +42,10 @@ back to the structure of a neural network. Now, with any kind of model, a pretty
 
 > The data requirements, training, time and the amount of computation it takes is why many people try to solve simple problems with simple methods. And even though neural networks can pretty much do anything, it's not always the best approach. When you factor in the amount of data required, the amount of compute required and the lack of transparency at the end. As a machine learning professional, what you really want to do is use the right tool for the job.
 
-## Model we're using - Inception-ResNet
+## Model we're using - Inception-ResNet and VGG19 are image classifiers
 
 > every single model which we will be using expects data to be foramtted in a particular way, pre-processed
+
+Take away - image classifiers, even with pre-trained weights are not going to be 100% accurate. What's the
+state of the art classifiers. NASNET model - google, got about 82.5% accuracy after training a million pictures
+and 60,000 hours. This is kind of the lay of the land.
