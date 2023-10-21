@@ -41,3 +41,7 @@ So what you're going to see is that these two costs are related in a minute and 
 back to the structure of a neural network. Now, with any kind of model, a pretty good proxy for the degree of complexity in the model are the number of parameters.
 
 > The data requirements, training, time and the amount of computation it takes is why many people try to solve simple problems with simple methods. And even though neural networks can pretty much do anything, it's not always the best approach. When you factor in the amount of data required, the amount of compute required and the lack of transparency at the end. As a machine learning professional, what you really want to do is use the right tool for the job.
+
+## Model we're using - Inception-ResNet
+
+> every single model which we will be using expects data to be foramtted in a particular way, pre-processed
