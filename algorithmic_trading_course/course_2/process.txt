@@ -1,0 +1,3 @@
+1. We'll be using random data
+2. We will not be executing trades.
+3. We will be saving the recommended trades to an excel file

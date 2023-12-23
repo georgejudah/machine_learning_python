@@ -1,0 +1,32 @@
+Project 1: Unsupervised Learning Trading Strategy
+Project 2: Twitter sentiment Trading Strategy
+Project 3: Intraday Strategy Using GARCH MODEL - optional
+
+Challenges faced when applying ML to Trading
+1. The past changes has reflected the current price of the stock, it's a risk to predict the future
+price based off the past price.
+2. Very hard to predict returns or prices.
+3. Hard to predict the economic indicator.
+4. Quite hard to predict return signs.
+
+
+The work flow process:
+1. Collect and prepare the data.
+2. Develop a hypothesis for a strategy.
+3. Coding the model.
+4. Backtest the strategy.
+
+What is unsupervised learning in trading?
+Unlike supervised learning, where the model is trained to make predictions, unsupervised learning
+focuses on extracting insights from the data.
+
+What we do ?
+Download the SP500 stocks prices data.
+Calculate different technical indicators and features for each stock.
+Aggregate on the monthly level and filter for each month only top 150 most liquid stocks.
+Calculate monthly returns for different time-horizons to add to features.
+Download Fama-French Factors and calculate the rolling factor betas for each stock.
+For each month fit a K-means clustering model to group similar assets based on their features.
+For each month select assets based on the cluster and form a portfolio based on Efficient
+frontier max sharpe ratio portfolio optimization
+Visualize the portfolio returns and compare to the SP500 returns

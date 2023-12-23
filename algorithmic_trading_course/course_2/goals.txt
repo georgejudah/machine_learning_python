@@ -1,0 +1,38 @@
+Course Outline
+In this course you will first learn the basics of algorithmic trading. Then you will learn how the IEX Cloud API works. We will use the API to gather data.
+
+The bulk of this course teaches how to build three algorithmic trading projects.
+
+Algorithmic Trading Fundamentals and API Basics
+
+What is Algorithmic Trading?
+The Differences Between Real-World Algorithmic Trading and This Course
+The Basics of API Requests
+Building An Equal-Weight S&P 500 Index Fund
+
+Theory & Concepts
+Importing our Constituents
+Pulling Data For Our Constituents
+Calculating Weights
+Generating Our Output File
+Additional Project Ideas
+Building A Quantitative Momentum Investing Strategy
+
+Theory & Concepts
+Pulling Data For Our Constituents
+Calculating Weights
+Generating Our Output File
+Additional Project Ideas
+Building A Quantitative Value Investing Strategy
+
+Theory & Concepts
+Importing our Constituents
+Pulling Data For Our Constituents
+Calculating Weights
+Generating Our Output File
+Additional Project Ideas
+The first project in the course is an equal-weight S&P 500 screener. The S&P 500 is the world's most popular stock market index. In this project, you will build an alternative version of the S&P 500 Index Fund where each company has the same weighting.
+
+The second project is a quantitative momentum screener. Momentum investing means investing in assets that have increased in price the most. You will create an algorithm that implements this strategy. First, you will build a strategy that uses a single momentum metric. Then, you will expand to build a more sophisticated strategy that uses multiple metrics together.
+
+The final project is a quantitative value screener. Value investing means investing in stocks that are trading below their perceived intrinsic value. Like the previous project, you will first build a strategy that uses 1 value metric. Then, you will expand to build a more sophisticated strategy that uses 5 different value metrics together.
